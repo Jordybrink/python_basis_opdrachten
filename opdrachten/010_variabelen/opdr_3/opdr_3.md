@@ -11,10 +11,10 @@ Maak gebruik van het bestand: opdr_3.py
 Ken onderstaande waarden toe aan een variabele `my_dict` van het type dictionary  
 Zorg ervoor dat de dictionary wordt geprint.
 
-naam = willem  
-achternaam = van der broek  
-leeftijd = 23  
-favoriete kleur = blauw  
+naam = willem 
+achternaam = van der broek 
+leeftijd = 23 
+favoriete kleur = blauw 
 
 
 
