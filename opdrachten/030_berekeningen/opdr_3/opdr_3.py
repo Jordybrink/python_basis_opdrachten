@@ -1,16 +1,21 @@
-# Opdracht 3 tekstfuncties
-# Naam student:
-# Groep:
+''' Student info 
+Opdracht 3 tekstfuncties
+Naam student: Jordy Brink
+Groep:4ITX7
+'''
 
-# Hier komt je code...
+# Code 1
 x = 1
-y = ...
-print( ... )
+y = (4**3) - (2**2) +1
+print(y)
 
+
+# Code 2
 x = 2
-y = ...
-print( ... )
+y = (4**3) - (2**2) +1
+print(y)
 
+# Code 3
 x = 0
-y = ...
-print( ... )
+y = (4**3) - (2**2) +1
+print(y)
