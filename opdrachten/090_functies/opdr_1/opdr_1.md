@@ -10,7 +10,7 @@ Deze opdracht hoort bij de cursus python op [edutorial.nl](https://www.edutorial
 * Commit en push je code naar github of bewaar in onedrive
 
 Schrijf een function met de titel write_to_file.
-De functie accepteert 3 argumenten:
+De functie accepteert 2 argumenten:
 1. de naam van het bestand
 2. de tekst die moet worden weggeschreven.
 
