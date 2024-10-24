@@ -31,7 +31,7 @@ Zowel land als rivier beginnen met een hoofdletter, gebruik hiervoor een tekstfu
 > Gebruik ook deze code rivier_info[?][?]. Vul in wat er op de plek van de vraaktekens moet komen.
 
 Output:  
->De rivier Rijn stroomt onder andere door Duitsland
+> De rivier Rijn stroomt onder andere door Duitsland
 
 Print de naam van de 2e rivier  
 Print het 1e land waar de 1e rivier doorheen stroomt
@@ -39,7 +39,7 @@ Zowel land als rivier beginnen met een hoofdletter
 
 Output:  
 
->De rivier Maas stroomt onder andere door Nederland
+> De rivier Maas stroomt onder andere door Nederland
 
 Print de naam van de 3e rivier  
 Print het 3e land waar de 3e rivier doorheen stroomt
@@ -47,5 +47,5 @@ Zowel land als rivier beginnen met een hoofdletter
 
 Output:  
 
->De rivier Nijl stroomt onder andere door Oeganda
+> De rivier Nijl stroomt onder andere door Oeganda
 
