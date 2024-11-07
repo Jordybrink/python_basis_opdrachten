@@ -11,16 +11,15 @@ def cls():
 cls()
 
 def volledige_naam(lijst_met_namen):
-    # hier komt jouw code
-    # Het woordje pass mag je weghalen
-    pass
-
-
+    for naam in lijst_met_namen:
+        if naam['tussenvoegsel']:
+            print(f"{naam['voornaam']} {naam['tussenvoegsel']} {naam['achternaam']}")
+        else:
+            print(f"{naam['voornaam']} {naam['achternaam']}")
 namen = [
     {"voornaam": "Willem", "tussenvoegsel": "van", "achternaam": "Dijk"},
     {"voornaam": "Klaas", "tussenvoegsel": "", "achternaam": "Wopstra"},
     {"voornaam": "Miep", "tussenvoegsel": "van der", "achternaam": "Plas"},
     {"voornaam": "Carla", "tussenvoegsel": "", "achternaam": "Hoogvliet"},
 ]
-
 volledige_naam(namen)

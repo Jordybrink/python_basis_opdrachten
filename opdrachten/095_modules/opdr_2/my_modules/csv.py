@@ -1,5 +1,7 @@
-#!/usr/bin/env python3
-# Dit is de module
-# In dit bestand komen alle functies.
-# Je kunt de functies in een ander .py bestand gebruiken door te starten  met:
-# from my_modules import csv
+import csv
+
+def schrijf_csv(bestandsnaam, data):
+    with open(bestandsnaam, mode='w', newline='') as bestand:
+        schrijver = csv.writer(bestand)
+        for rij in data:
+            schrijver.writerow(rij)

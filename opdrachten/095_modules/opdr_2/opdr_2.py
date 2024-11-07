@@ -10,6 +10,14 @@ def cls():
         os.system('clear')
 cls()
 
-# import .....
-# for line in open("test.csv", 'rt'):
-#   jouw code komt hier!
+from my_modules import csv
+
+data = [
+    ['Naam', 'Leeftijd', 'Woonplaats'],
+    ['Jordy', 34, 'IJsselmuiden'],
+    ['Jeanine', 27, 'Zwolle'],
+    ['Elina', 2, 'Genemuiden']
+]
+
+csv.schrijf_csv('gegevens.csv', data)
+print("De gegevens zijn succesvol opgeslagen in 'gegevens.csv'")

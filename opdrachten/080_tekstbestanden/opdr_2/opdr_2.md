@@ -26,4 +26,3 @@ Je hebt het getal geraden het is 75!
 Je hebt het in 2 keer gedaan
 
 
-  
