@@ -1,6 +1,13 @@
 # Opdracht 4 condities
-# Naam student:
-# Groep:
+# Naam student: Jordy Brink
+# Groep:4ITX7
+import os
+def cls():
+    if os.name == 'nt':
+        os.system('cls')
+    else: 
+        os.system('clear')
+cls()
 
 
 

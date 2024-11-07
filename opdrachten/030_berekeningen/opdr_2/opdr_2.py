@@ -1,15 +1,15 @@
-""" student info 
-Opdracht 3 tekstfuncties
-Naam student: Jordy Brink
-Groep:4ITX7
-"""
+# Opdracht 030_2
+# Student: Jordy Brink
+# St.nummer: 98104602
+# Groep:4ITX7
+import os
+def cls():
+    if os.name == 'nt':
+        os.system('cls')
+    else: 
+        os.system('clear')
+cls()
 
-""" kladblok
-c = ...
-f = ...
-
-print()
-"""
 
 input_temperatuur = input("Voer een temperatuur in (zoals: 10c of 20f): ")
 temperatuur = float(input_temperatuur[:-1])

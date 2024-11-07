@@ -1,8 +1,15 @@
-'''# Student info 
-# Opdracht 090 - opdr 1
-# Naam student: Jordy Brink
-# Groep:4ITX7 
-'''
+# Opdracht 090_2
+# Student: Jordy Brink
+# St.nummer: 98104602
+# Groep:4ITX7
+import os
+def cls():
+    if os.name == 'nt':
+        os.system('cls')
+    else: 
+        os.system('clear')
+cls()
+
 
 def kilometers_naar_miles(kilometers):
     return kilometers / 1.609344

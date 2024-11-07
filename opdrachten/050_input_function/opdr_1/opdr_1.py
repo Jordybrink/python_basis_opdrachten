@@ -1,14 +1,15 @@
-"""# Student info 
-# Opdracht 040_lists - opdr 1
+# Opdracht 050_1
 # Naam student: Jordy Brink
-# Groep:4ITX7 
-"""
-
+# Groep:4ITX7
 import os
-import math
+def cls():
+    if os.name == 'nt':
+        os.system('cls')
+    else: 
+        os.system('clear')
+cls()
 
-def clearscreen():
-    os.system("cls")
+import math
 
 def vraag_waarde(bericht):
     clearscreen()

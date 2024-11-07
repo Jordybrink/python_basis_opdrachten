@@ -1,16 +1,14 @@
-'''# Student info 
-# Opdracht 040_lists - opdr 1
-# Naam student: Jordy Brink
-# Groep:4ITX7 
-'''
-'''Opdracht voorbeeld 
-    mylist = ...
-    dict_1 = ...
-    dict_2 = ...
-    dict_3 = ...
-    dict_4 = ...
-    { "id": 0, "voornaam": "", "achternaam": "" }
-'''
+# Opdracht 040_1
+# Student: Jordy Brink
+# St.nummer: 98104602
+# Groep:4ITX7
+import os
+def cls():
+    if os.name == 'nt':
+        os.system('cls')
+    else: 
+        os.system('clear')
+cls()
 
 mylist = []
 dict_1 = { "id": 0, "voornaam": "John", "achternaam": "Doe" }

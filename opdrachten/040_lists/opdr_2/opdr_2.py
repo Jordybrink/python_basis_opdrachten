@@ -1,11 +1,14 @@
+# Opdracht 040_2
+# Student: Jordy Brink
+# St.nummer: 98104602
+# Groep:4ITX7
 import os
-if os.name == 'nt': os.system('cls')
-
-'''# Student info 
-# Opdracht 040_lists - opdr 1
-# Naam student: Jordy Brink
-# Groep:4ITX7 
-'''
+def cls():
+    if os.name == 'nt':
+        os.system('cls')
+    else: 
+        os.system('clear')
+cls()
 
 rivier_info = {"rijn": ["nederland", "duitsland", "Frankrijk"], "maas": ["nederland", "belgië", "duitsland"],"nijl": ["egypte", "soedan", "oeganda"]}
 rivieren = list(rivier_info.keys())
