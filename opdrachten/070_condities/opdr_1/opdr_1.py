@@ -1,4 +1,4 @@
-# Opdracht 070_1
+# Opdracht
 # Student: Jordy Brink
 # St.nummer: 98104602
 # Groep:4ITX7
@@ -10,11 +10,14 @@ def cls():
         os.system('clear')
 cls()
 
-# Hier komt je code, maak gebruik van de input functie om de lengte van de rechthoekzijden van de driehoek op te vragen.
+# Maak een lege lijst
+getallen = []
 
-# Hier start de for-loop....
+# Gebruik een loop om de lijst te vullen met getallen van 1 t/m 10
+for i in range(1, 11):
+    getallen.append(i)
 
-my_list = []
-
-#for loop
-#if statement
+# Print alleen de getallen die groter zijn dan 4
+for getal in getallen:
+    if getal > 4:
+        print(getal)

@@ -1,4 +1,4 @@
-# Opdracht 070_2
+# Opdracht
 # Student: Jordy Brink
 # St.nummer: 98104602
 # Groep:4ITX7
@@ -10,12 +10,8 @@ def cls():
         os.system('clear')
 cls()
 
-# Hier komt je code...
+getallen = [43948, 878768, 38768, 87555, 765765]
 
-# Hier start de for-loop
-
-my_list = [43948, 878768, 38768, 87555, 765765]
-
-# for...:
-#   if...:
-#       print()
+for getal in getallen:
+    if getal % 3 == 0:
+        print(getal)
