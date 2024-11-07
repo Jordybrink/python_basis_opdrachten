@@ -10,9 +10,6 @@ def cls():
         os.system('clear')
 cls()
 
-
-# Hier komt je code...
-
 my_tuple = [11, "Oh een tuple", 13.5, 8009]
 for item in my_tuple:
     print(item)

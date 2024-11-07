@@ -10,7 +10,6 @@ def cls():
         os.system('clear')
 cls()
 
-
 input_temperatuur = input("Voer een temperatuur in (zoals: 10c of 20f): ")
 temperatuur = float(input_temperatuur[:-1])
 unit = input_temperatuur[-1].lower()

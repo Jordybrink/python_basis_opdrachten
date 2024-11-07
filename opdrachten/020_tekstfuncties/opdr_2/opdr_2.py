@@ -10,7 +10,6 @@ def cls():
         os.system('clear')
 cls()
 
-# Hier komt je code...
 zin1 = "Tinus gaat op zijn tandem naar de hottentottententoonstelling"  
 count_t = zin1.count('t')
 

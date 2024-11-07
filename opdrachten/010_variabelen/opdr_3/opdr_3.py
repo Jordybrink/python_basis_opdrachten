@@ -10,8 +10,6 @@ def cls():
         os.system('clear')
 cls()
 
-# Hier komt je code...
-
 my_dict = ["naam = willem", "Achternaam = van der broek", "Leeftijd = 23", "Favoriete kleur = blauw",] 
 for item in my_dict:
     print(item)
