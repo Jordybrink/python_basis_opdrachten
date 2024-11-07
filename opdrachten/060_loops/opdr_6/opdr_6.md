@@ -16,7 +16,6 @@ Gebruik deze lijst met pizza's:
 Sorteer de lijst op alfabet
 > ['calzone', 'margharita', 'olivio', 'quattro stagioni', 'verdi']
 
-
 Voeg naar eigen smaak nog een pizza toe
 > ['calzone', 'margharita', 'olivio', 'quattro stagioni', 'verdi', 'yo-favorito']
 

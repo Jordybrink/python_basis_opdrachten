@@ -10,11 +10,7 @@ def cls():
         os.system('clear')
 cls()
 
-
-# Hier komt je code, maak gebruik van de input functie om de lengte van de rechthoekzijden van de driehoek op te vragen.
 my_list = []
-for i in range(1, 201):
+for i in range(1, 11):
     my_list.append(i)
 print(my_list)
-
-# Hier start de for-loop....
